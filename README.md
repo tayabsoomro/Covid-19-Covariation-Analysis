@@ -4,13 +4,40 @@ This Covid-19 project has the main idea of reconstituting viral capsid protein a
 
 This is the analysis we are interested in. 
 
-1.) Download all https://www.gisaid.org coronavirus sequences and individually blast to reference genome. 
-2.) Discard any sequences with a sequence divergence (absolute mismatch > 5%)
-3.) If no sequences are discarded at 5% mismatch, lower to 1%.
-4.) Discard any sequences shorter than 80% of reference genome.
-5.) Run CMsearch from infernal package (http://eddylab.org/infernal/) using  https://rfam.org/family/RF00182. 
-6.) Identify location and “bit-score” of top hit location.
-7.) Plot a bit-score weighted average position on reference genome.
+<table>
+  <tr>
+    <th>Task Number</th>
+    <th>Task Description</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Download all https://www.gisaid.org coronavirus sequences and individually blast to reference genome.</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Discard any sequences with a sequence divergence (absolute mismatch > 5%)</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>If no sequences are discarded at 5% mismatch, lower to 1%.</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Discard any sequences shorter than 80% of reference genome.</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Run CMsearch from infernal package (http://eddylab.org/infernal/) using  https://rfam.org/family/RF00182</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Identify location and “bit-score” of top hit location.</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Plot a bit-score weighted average position on reference genome.</td>
+  </tr>
+ </table>
 
 Below is a short proposal of our project so that you know what the project is all about.
 
