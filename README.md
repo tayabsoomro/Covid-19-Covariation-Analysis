@@ -1,13 +1,14 @@
 # Covid-19-Covariation-Analysis
 
-This Covid-19 project has the main idea of reconstituting viral capsid protein and RNA assembly in vitro and finding potential inhibitors. We are looking for someone to perform a bioinformatic analysis to identify putative RNA packaging signals in Covid-19 using covariation analysis and would have time to work on this basically immediately. At this point we have inferred two stem loops at homologous sites to other coronaviruses, but we would be interested to see if those can be verified and potentially other packaging signal candidates can be identified.
+This Covid-19 project has the main idea of reconstituting viral capsid protein and RNA assembly in vitro and finding potential inhibitors. We are looking for people interested to perform a bioinformatic analysis to identify putative RNA packaging signals in Covid-19 using covariation analysis and would have time to work on this basically immediately. At this point we have inferred two stem loops at homologous sites to other coronaviruses, but we would be interested to see if those can be verified and potentially other packaging signal candidates can be identified.
 
-This is the analysis we are interested in. If you need any details concerning the covariation analysis or have any questions you can contact Alain Laederach directly (alain@unc.edu)
+This is the analysis we are interested in. 
+
 1.) Download all https://www.gisaid.org coronavirus sequences and individually blast to reference genome. 
 2.) Discard any sequences with a sequence divergence (absolute mismatch > 5%)
 3.) If no sequences are discarded at 5% mismatch, lower to 1%.
 4.) Discard any sequences shorter than 80% of reference genome.
-5.) Run CMsearch from infernal package (http://eddylab.org/infernal/) using  https://rfam.org/family/RF00182. Contact alain@unc.edu with questions about syntax.
+5.) Run CMsearch from infernal package (http://eddylab.org/infernal/) using  https://rfam.org/family/RF00182. 
 6.) Identify location and “bit-score” of top hit location.
 7.) Plot a bit-score weighted average position on reference genome.
 
